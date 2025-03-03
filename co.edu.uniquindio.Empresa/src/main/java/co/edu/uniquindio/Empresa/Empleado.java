@@ -5,9 +5,9 @@ import java.util.ArrayList;
 import java.util.*;
 
 public class Empleado {
-    private String nombre;
-    private int idEmpleado;
-    private Departamento departamento;
+    public String nombre;
+    public int idEmpleado;
+    public Departamento departamento;
 
     public Empleado(String nombre, int idEmpleado, Departamento departamento) {
         this.nombre = nombre;

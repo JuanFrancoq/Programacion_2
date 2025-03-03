@@ -61,4 +61,12 @@ public class Proyecto {
             empleado.mostrarInfo();
         }
     }
+    public boolean estaEmpleadoEnProyecto(int idEmpleado) {
+        for (Empleado empleado : listaEmpleadosAsignados) {
+            if(empleado.idEmpleado == idEmpleado){
+                return true;
+            }
+        }
+        return false;
+    }
 }
