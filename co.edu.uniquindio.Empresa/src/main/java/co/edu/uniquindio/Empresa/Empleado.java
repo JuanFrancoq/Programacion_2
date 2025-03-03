@@ -41,12 +41,9 @@ public class Empleado {
 
     @Override
     public String toString() {
-        return "Empleado{" +
-                "nombre='" + nombre + '\'' +
-                ", idEmpleado='" + idEmpleado + '\'' +
-                ", departamento=" + departamento +
-                '}';
+        return "Empleado: " + nombre + ", Departamento: " + (departamento != null ? departamento.getNombre() : "Sin departamento");
     }
+
     public void mostrarInfo() {
         System.out.println("Empleado: " + nombre + ", ID: " + idEmpleado + ", Departamento: " + departamento.getNombre());
     }

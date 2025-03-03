@@ -41,11 +41,7 @@ public class Departamento {
 
     @Override
     public String toString() {
-        return "Departamento{" +
-                "nombre='" + nombre + '\'' +
-                ", codigo='" + codigo + '\'' +
-                ", empleados=" + empleados +
-                '}';
+        return "Departamento: " + nombre + ", Empleados: " + empleados.size();
     }
 
     public void agregarEmpleado(Empleado empleado) {

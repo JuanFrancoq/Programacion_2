@@ -8,14 +8,16 @@ public class Proyecto {
     private String nombre;
     private String codigo;
     private List<Empleado> listaEmpleadosAsignados = new ArrayList<>();
+    private Departamento departamento;
 
     public Proyecto() {
 
     }
-    public Proyecto(String nombre, String codigo) {
+    public Proyecto(String nombre, String codigo, Departamento departamento) {
         this.nombre = nombre;
         this.codigo = codigo;
         this.listaEmpleadosAsignados = listaEmpleadosAsignados;
+        this.departamento = departamento;
     }
 
     public String getNombre() {
@@ -40,6 +42,14 @@ public class Proyecto {
 
     public void setListaEmpleadosAsignados(List<Empleado> listaEmpleadosAsignados) {
         this.listaEmpleadosAsignados = listaEmpleadosAsignados;
+    }
+
+    public Departamento getDepartamento() {
+        return departamento;
+    }
+
+    public void setDepartamento(Departamento departamento) {
+        this.departamento = departamento;
     }
 
     @Override
