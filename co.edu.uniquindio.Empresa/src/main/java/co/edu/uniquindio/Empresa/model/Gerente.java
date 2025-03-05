@@ -1,10 +1,11 @@
-package co.edu.uniquindio.Empresa;
+package co.edu.uniquindio.Empresa.model;
+
+import co.edu.uniquindio.Empresa.model.Contribuyente;
 
 import java.util.List;
 import java.util.ArrayList;
-import java.util.*;
 
-public class Gerente extends Empleado implements  Contribuyente{
+public class Gerente extends Empleado implements Contribuyente {
     private List<Proyecto> proyectosGestionados = new ArrayList<>();
 
     public Gerente(String nombre, int idEmpleado, Departamento departamento) {

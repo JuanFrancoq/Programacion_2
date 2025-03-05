@@ -1,5 +1,7 @@
 package co.edu.uniquindio.Empresa;
 
+import co.edu.uniquindio.Empresa.model.*;
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;

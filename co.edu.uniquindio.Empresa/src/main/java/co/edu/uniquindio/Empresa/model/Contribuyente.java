@@ -1,4 +1,4 @@
-package co.edu.uniquindio.Empresa;
+package co.edu.uniquindio.Empresa.model;
 
 interface Contribuyente {
     void contribuir();

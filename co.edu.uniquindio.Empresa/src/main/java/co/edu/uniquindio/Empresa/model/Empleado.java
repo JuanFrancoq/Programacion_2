@@ -1,8 +1,4 @@
-package co.edu.uniquindio.Empresa;
-
-import java.util.List;
-import java.util.ArrayList;
-import java.util.*;
+package co.edu.uniquindio.Empresa.model;
 
 public class Empleado {
     public String nombre;

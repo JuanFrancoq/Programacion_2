@@ -1,10 +1,8 @@
-package co.edu.uniquindio.Empresa;
+package co.edu.uniquindio.Empresa.model;
 
-import java.util.List;
-import java.util.ArrayList;
-import java.util.*;
+import co.edu.uniquindio.Empresa.model.Contribuyente;
 
-public class Tecnico extends Empleado implements Contribuyente{
+public class Tecnico extends Empleado implements Contribuyente {
     private String especialidad;
 
     public Tecnico(String nombre, int idEmpleado, Departamento departamento, String especialidad) {

@@ -1,8 +1,7 @@
-package co.edu.uniquindio.Empresa;
+package co.edu.uniquindio.Empresa.model;
 
 import java.util.List;
 import java.util.ArrayList;
-import java.util.*;
 
 public class Proyecto {
     private String nombre;
